@@ -2,7 +2,7 @@ package CWH.Exercises;
 import java.util.Random;
 import java.util.Scanner;
 
-// Exercise 2 : Write a program to make a stone paper scissors game
+// Exercise 2 : Write a java program to make a stone paper scissors game
 
 public class Exercise02 {
     public static void main(String[] args) {
