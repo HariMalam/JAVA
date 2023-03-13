@@ -14,44 +14,47 @@ public class Exercise02 {
         System.out.println("Select any one option\n[1] Stone [2] Paper [3] Scissors ");
         int you = sc.nextInt();
 
-        if(you == com)
-        {
-            System.out.println("it's tie ! ");
+        switch (you) {
+            case 1 -> {
+                if (com == 1) {
+                    System.out.println("it's tie");
+                    System.out.println("\n[com selected Stone]");
+                } else if (com == 2) {
+                    System.out.println("Com win");
+                    System.out.println("\n[com selected Paper]");
+                } else if (com == 3) {
+                    System.out.println("You win");
+                    System.out.println("\n[com selected Scissor]");
+                }
+                System.out.println("[you selected Stone]");
+            }
+            case 2 -> {
+                if (com == 2) {
+                    System.out.println("it's tie");
+                    System.out.println("\n[com selected Paper]");
+                } else if (com == 1) {
+                    System.out.println("You win");
+                    System.out.println("\n[com selected Stone]");
+                } else if (com == 3) {
+                    System.out.println("Com win");
+                    System.out.println("\n[com selected Scissor]");
+                }
+                System.out.println("[you selected Paper]");
+            }
+            case 3 -> {
+                if (com == 3) {
+                    System.out.println("it's tie");
+                    System.out.println("\n[com selected Scissor]");
+                } else if (com == 2) {
+                    System.out.println("You win");
+                    System.out.println("\n[com selected Paper]");
+                } else if (com == 1) {
+                    System.out.println("Com win");
+                    System.out.println("\n[com selected Stone]");
+                }
+                System.out.println("[you selected Scissor]");
+            }
+            default -> System.out.println("\n[Please Select Valid Option!]");
         }
-        else if (you == 1 && com == 2){
-            System.out.println("com win");
-        }
-        else if (you == 1 && com == 3){
-            System.out.println("you win");
-        }
-        else if (you == 2 && com == 1){
-            System.out.println("you win");
-        }
-        else if (you == 2 && com == 3){
-            System.out.println("com win");
-        }
-        else if (you == 3 && com == 1){
-            System.out.println("com win");
-        }
-        else if (you == 3 && com == 2){
-            System.out.println("you win");
-        }
-
-
-        if(you == 1)
-            System.out.println("\n[You selected Stone]");
-        else if(you == 2)
-            System.out.println("\n[You selected Paper]");
-        else if(you == 3)
-            System.out.println("\n[You selected Scissor]");
-        else
-            System.out.println("\nPlease Select Valid Option !");
-
-        if(com == 1)
-            System.out.println("[Com selected Stone]");
-        else if(com == 2)
-            System.out.println("[Com selected Paper]");
-        else if(com == 3)
-            System.out.println("[Com selected Scissor]");
     }
 }
