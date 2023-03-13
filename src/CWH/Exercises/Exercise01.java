@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 // Exercise 1.1 : Write  a program to calculate percentage of a given student in CBSE bord exam.
 // His marks from 5 subjects must be taken as input from the keyboard. (Marks are out of 100)
-public class Ch01_Exercise01 {
+public class Exercise01 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Subject 1 Marks: ");
