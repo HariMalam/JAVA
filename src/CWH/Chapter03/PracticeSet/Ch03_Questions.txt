@@ -1,12 +1,17 @@
-Question 1 : Write a Java program to convert a string to lowercase.
+Question 1 :
+Write a Java program to convert a string to lowercase.
 
-Question 2 : Write a Java program to replace spaces with underscores.
+Question 2 :
+Write a Java program to replace spaces with underscores.
 
-Question 3 : Write a Java program to fill in a latter template which looks like below.
-            latter = "Dear <|Name|>, Thanks a lot"
-            Replace <|Name|> with a string (some name)
+Question 3 :
+Write a Java program to fill in a latter template which looks like below.
+latter = "Dear <|Name|>, Thanks a lot"
+Replace <|Name|> with a string (some name)
 
-Question 4 : Write a Java program to detect double and triple spaces in a string.
+Question 4 :
+Write a Java program to detect double and triple spaces in a string.
 
-Question 5 : Write a Java program to format the following latter using escape sequence characters.
-            letter = "Dear Hari, This Java Language is nice. Thanks"
+Question 5 :
+Write a Java program to format the following latter using escape sequence characters.
+letter = "Dear Hari, This Java Language is nice. Thanks"
