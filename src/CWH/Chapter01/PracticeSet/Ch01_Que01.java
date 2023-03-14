@@ -1,6 +1,6 @@
 package CWH.Chapter01.PracticeSet;
 
-// Ch01_Questions.txt 1 : Write a program to sum three numbers in java
+// Ch01_Questions 01 : Write a program to sum three numbers in java
 
 public class Ch01_Que01 {
     public static void main(String[] args) {

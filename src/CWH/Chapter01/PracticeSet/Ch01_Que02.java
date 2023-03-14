@@ -1,6 +1,6 @@
 package CWH.Chapter01.PracticeSet;
 
-// Ch01_Questions.txt 2 : Write a program to calculate CGPA using marks of three subjects. ( Out of 100 )
+// Ch01_Questions 02 : Write a program to calculate CGPA using marks of three subjects. ( Out of 100 )
 
 public class Ch01_Que02 {
     public static void main(String[] args) {
