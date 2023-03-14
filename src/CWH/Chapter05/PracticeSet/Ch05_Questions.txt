@@ -24,11 +24,11 @@ Write a Java program to find factorial of a given number using for loop
 
 
 Question 6 :
-Repeat 5 using while loop
+Repeat 05 using while loop
 
 
 Question 7 :
-Repeat 1 using for/while loop
+Repeat Que01 using for/while loop
 
 
 Question 8 :
@@ -47,4 +47,4 @@ At most once
 
 
 Question 11 :
-Repeat 2 using for loop
+Repeat Que02 using for loop

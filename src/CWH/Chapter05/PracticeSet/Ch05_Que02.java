@@ -9,10 +9,11 @@ public class Ch05_Que02 {
         System.out.print("Enter Value of n : ");
         int n = sc.nextInt();
         int sum = 0;
-
-        for (int i = 0; i < n; i++){
+        int i = 0;
+        while ( i < n ){
             sum = sum + (2*i);
+            i++;
         }
-        System.out.println("The Sum of first "+n+ " even numbers is " +sum);
+        System.out.println("The Sum of first " + n + " even numbers is " + sum);
     }
 }
