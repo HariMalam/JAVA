@@ -1,0 +1,37 @@
+Question 1 :
+Write a Java method to print multiplication table of a number n
+
+Question 2 :
+Write a Java program using functions to print the following pattern :
+*
+* *
+* * *
+* * * *
+
+Question 3 :
+Write a recursive function to calculate sum of first n natural numbers
+
+Question 4 :
+Write a function to print the following pattern :
+* * * *
+* * *
+* *
+*
+
+Question 5 :
+Write a function to print nth term of fibonacci series using recursion
+
+Question 6 :
+Write a function to find average of a set of numbers passed as arguments
+
+Question 7 :
+Repeat Que04 using recursion
+
+Question 8 :
+Repeat Que02 using Recursion
+
+Question 9 :
+Write a function to convert Celsius temperature to Fahrenheit
+
+Question 10 :
+Repeat Que03 using iterative approach
