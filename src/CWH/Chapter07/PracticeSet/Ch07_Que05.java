@@ -5,14 +5,6 @@ import java.util.Scanner;
 
 public class Ch07_Que05 {
     static int fibonacci (int n){
-
-        /*if (n == 1){
-            return 0;
-        }
-        else if (n == 2){
-            return 1;
-        }*/
-
         if (n==1 || n==2){
 //            System.out.format("%d ",n-1);
             return n-1;

@@ -1,0 +1,23 @@
+Question 1 :
+Create a class Employee with following properties and methods :
+salary(property)(int)
+getSalary(method returning int)
+name(property)(string)
+getName(method returning string)
+setName(method changing name)
+
+Question 2 :
+Create a class cellphone with methods to print
+"ringing...", "vibrating..." etc.
+
+Question 3 :
+Create a class square with method to initialize its side, calculating area, perimeter etc.
+
+Question 4 :
+Create a class Rectangle & repeat Que03
+
+Question 5 :
+Create a class TommyViceHi for Rockstar Games capable of hitting(print hitting...), running, firing etc.
+
+Question 6 :
+Repeat Que04 for a circle
