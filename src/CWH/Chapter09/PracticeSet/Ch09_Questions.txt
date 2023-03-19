@@ -1,0 +1,14 @@
+Question 01 :
+Create a class cylinder and user getters and setters to set its radius and height.
+
+Question 02 :
+Use Que01 to calculate surface area and volume of the cylinder
+
+Question 03 :
+Use a constructor and repeat Que01
+
+Question 04 :
+Overload a constructor used to initialize a rectangle of length 4 and breadth 5 for using custom parameters
+
+Question 05 :
+Repeat Que01 for a sphere
