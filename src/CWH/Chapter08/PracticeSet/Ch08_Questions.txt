@@ -17,7 +17,7 @@ Question 4 :
 Create a class Rectangle & repeat Que03
 
 Question 5 :
-Create a class TommyViceHi for Rockstar Games capable of hitting(print hitting...), running, firing etc.
+Create a class Tommy for Rockstar Games capable of hitting(print hitting...), running, firing etc.
 
 Question 6 :
 Repeat Que04 for a circle
