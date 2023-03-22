@@ -1,7 +1,7 @@
 package CWH.Exercises;
 import java.util.Scanner;
 
-// Exercise 1.1 : Write  a program to calculate percentage of a given student in CBSE bord exam.
+// Exercise 01 : Write  a program to calculate percentage of a given student in CBSE bord exam.
 // His marks from 5 subjects must be taken as input from the keyboard. (Marks are out of 100)
 
 public class Exercise01 {
