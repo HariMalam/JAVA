@@ -1,0 +1,21 @@
+Question 01 :
+Create a class circle and use inheritance to create another class cylinder from it.
+
+Question 02 :
+Create a class Rectangle and use inheritance to create another class Cuboid. Try to rap it as close to real world scenario as possible
+
+Question 03 :
+Create methods for area and volume in Que01
+
+Question 04 :
+Create methods for area & volume in Que02. Also create getters and setters
+
+Question 05 :
+What is the order of constructor execution for the following inheritance hierarchy.
+
+Base
+Derived 1
+Derived 2
+
+Derived 2 Obj = new Derived 2();
+Which constructor(s) will be executed & in what order ?
