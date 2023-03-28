@@ -25,9 +25,6 @@ class game{
         System.out.print("Guess the Number: ");
         inputNumber = sc.nextInt();
     }
-    public void  setNoOfGuesses(int noOfGuesses){
-        this.noOfGuesses = noOfGuesses;
-    }
     public game(){
         Random rand = new Random();
         this.number = rand.nextInt(100);
