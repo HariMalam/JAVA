@@ -1,13 +1,13 @@
-Question 01 : Create an abstract class pen with method write() and refill() as abstract methods
+Question 01: Create an abstract class pen with method write() and refill() as abstract methods
 
-Question 02 : Use the pen class from Que01 to create a concrete class fountainPen with additional method changeNib()
+Question 02: Use the pen class from Que01 to create a concrete class fountainPen with additional method changeNib()
 
-Question 03 : Create a class Monkey with jump() and bite() methods. Create a class Human which inherits this monkey class and implements basicAnimal interface with eat() and sleep() method
+Question 03: Create a class Monkey with jump() and bite() methods. Create a class Human which inherits this monkey class and implements basicAnimal interface with eat() and sleep() method
 
-Question 04 : Create a class Telephone with ring(), lift90 and disconnect() methods as abstract methods. create another class SmartTelephone and demonstrate polymorphism
+Question 04: Create a class Telephone with ring(), lift90 and disconnect() methods as abstract methods. create another class SmartTelephone and demonstrate polymorphism
 
-Question 05 : Demonstrate polymorphism using monkey class from Que03
+Question 05: Demonstrate polymorphism using monkey class from Que03
 
-Question 06 : Create an interface TVRemote and use it inherit another interface SmartTVRemote
+Question 06: Create an interface TVRemote and use it inherit another interface SmartTVRemote
 
-Question 07 : Create a class TV which implements TVRemote interface from Que06
+Question 07: Create a class TV which implements TVRemote interface from Que06

@@ -1,5 +1,8 @@
 package CWH.Chapter11_Abstract_Classes_And_Interfaces.PracticeSet;
 
+// Question 01: Create an abstract class pen with method write() and refill() as abstract methods
+// Question 02: Use the pen class from Que01 to create a concrete class fountainPen with additional method changeNib()
+
 abstract class pen {
     abstract void write();
     abstract void refill();
