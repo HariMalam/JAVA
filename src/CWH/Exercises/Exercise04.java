@@ -1,8 +1,8 @@
 package CWH.Exercises;
 
-// Exercise 04 : implement a library using java class library
+// Exercise 04: implement a library using java class library
 // Methods : addBook, issueBook, returnBook, showAvailableBooks
-// Property : Array to store the available books,
+// Property: Array to store the available books,
 //            Array to store the issued books.
 
 import java.util.Scanner;
@@ -16,8 +16,7 @@ class Library {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Welcome to My Library 👋");
-        boolean b = false;
-        while (!b) {
+        while (true) {
             System.out.println("\nAvailable books - " + totalCount);
             System.out.println("issue books - " + issueCount);
 
@@ -33,8 +32,8 @@ class Library {
             int s = sc.nextInt();
             switch (s) {
                 case 0 -> {
-                    b = true;
                     System.out.println("\nExit...");
+                    break;
                 }
                 case 1 -> showBooks();
                 case 2 -> addBook();
@@ -56,7 +55,7 @@ class Library {
         String newBook = sc.nextLine();
         availableBooks[totalCount] = newBook;
         totalCount++;
-        System.out.println("Added Successfully...");
+        System.out.println(newBook +" has been Added Successfully...");
     }
 
     public void showBooks() {
@@ -76,11 +75,22 @@ class Library {
 
         System.out.println("\nAvailable Books in this library is :");
         showBooks();
-        System.out.print("Please select number of book for issue : ");
-        int n = sc.nextInt();
-        issueBooks[issueCount] = availableBooks[n - 1];
-        issueCount++;
-        System.out.println("Issued Successfully...");
+        while (true) {
+            System.out.print("Please select number of book for issue : ");
+            int n = sc.nextInt();
+            if (n <= totalCount && n > 0) {
+                issueBooks[issueCount] = availableBooks[n - 1];
+                for (int i = n - 1; i < totalCount; i++) {
+                    availableBooks[i] = availableBooks[i + 1];
+                }
+                totalCount--;
+                issueCount++;
+                System.out.println("Issued Successfully...");
+                break;
+            } else {
+                System.out.println("Please Select Valid Option");
+            }
+        }
     }
 
     public void showIssueBooks() {
@@ -106,6 +116,8 @@ class Library {
         for (int i = n - 1; i < issueCount; i++) {
             issueBooks[i] = issueBooks[i + 1];
         }
+        totalCount++;
+        availableBooks[totalCount]=returnBooks[returnConunt];
         issueCount--;
         returnConunt++;
         System.out.println("Returned Successfully...");
