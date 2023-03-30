@@ -1,4 +1,4 @@
-package CWH.Chapter11_Abstract_Classes_And_Interfaces.Practice.PracticeSet;
+package CWH.Chapter11_Abstract_Classes_And_Interfaces.PracticeSet;
 
 abstract class pen {
     abstract void write();
@@ -16,7 +16,7 @@ class FountainPen extends pen {
         System.out.println("Changing the Nib...");
     }
 }
-public class Ch11_Que01 {
+public class Ch11_Que01_Que02 {
     public static void main(String[] args) {
         FountainPen myPen = new FountainPen();
         myPen.write();

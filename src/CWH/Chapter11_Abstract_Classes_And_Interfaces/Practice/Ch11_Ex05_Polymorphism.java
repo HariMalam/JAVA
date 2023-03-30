@@ -45,10 +45,10 @@ class smartPhone2 extends MyCellPhone2 implements wifi2,camera2 {
 }
 public class Ch11_Ex05_Polymorphism {
     public static void main(String[] args) {
-        camera2 cam2 = new smartPhone2();
-        // cam2.getNetwork(); --> Not Allowed
+        camera2 cam2 = new smartPhone2(); // This is a Smartphone but, must be use it as a camera.
         cam2.takeSnap();
         cam2.recordVideo();
         cam2.record4KVideo();
+        // cam2.getNetwork(); --> Not Allowed
     }
 }

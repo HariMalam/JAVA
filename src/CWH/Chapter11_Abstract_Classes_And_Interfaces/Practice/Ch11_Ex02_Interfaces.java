@@ -1,5 +1,7 @@
 package CWH.Chapter11_Abstract_Classes_And_Interfaces.Practice;
 
+// Implementing an interface forces method implementation
+
 interface Bicycle {
     int a = 45;
     void applyBrake(int decrement);
