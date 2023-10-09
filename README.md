@@ -1,4 +1,4 @@
 - 👋 Hi, I’m @HariMalam
-- ☎️ Phone: 7284080686
+- ☎️ Phone: 728408XXXX
 - ✉️ Mail : malamharid@gmail.com
 - 💞️ I’m looking to collaborate...
